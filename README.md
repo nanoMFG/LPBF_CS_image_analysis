@@ -8,19 +8,18 @@
      removed, or replaced with a file format or folder hierarchy
      description. -->
 
-This repository contains scripts and supporting information for 
-a set of demonstrations related to the 2022 AM-Bench challenge series.
+This repository contains scripts to analyse cross section images of 
+powder bed fusion melt tracks.
 
-In particular, the data used in this demonstration comes from the
-2018 AM-Bench challenge documented at https://www.nist.gov/ambench/amb2018-02-description.
+The data used in this demonstration comes from the 2018 AM-Bench 
+challenge documented at https://www.nist.gov/ambench/amb2018-02-description.
+
+The repository is based on the demo provide in 
+https://github.com/usnistgov/ambench-sciserver-outreach.
 
 The script queries the AM-Bench 2018 repository located at https://ambench.nist.gov/, 
 then processes the returned XML-based results, does some image processing, and
-generates plots of melt pool depths.  This work was originally done by Miyu Mudalamane 
-(University of Delaware) during a 2021 Summer Undergraduate Research Fellowship at NIST 
-supervised by Chandler Becker and Gretchen Greene (NIST Office of Data and Informatics, ODI).  
-It was later adapted as this notebook by Jordan Raddick (Johns Hopkins University) in 
-consultation with NIST ODI staff.
+identifies the melt pool. 
 
 Additional datasets and challenge problem documentation are available through the NIST
 Public Data Repository record at https://data.nist.gov/od/id/6D6EC9B3A4147BE2E05324570681EEC91931
@@ -69,8 +68,8 @@ with spurious review requests. *Thanks!*
      employees are required to list their email address in their
      GitHub profile, so the general public can get in touch. -->
 
-Chandler A Becker, NIST Office of Data and Informatics, 
-chandler.becker@nist.gov
+Aagam Shah, Graduate Student, University of Illinois Urbana-Champaign
+aagam2@illinois.edu
 
 ## Related Material
 
